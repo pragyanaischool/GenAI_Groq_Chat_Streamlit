@@ -5,7 +5,7 @@ from groq import Groq
 st.set_page_config(page_icon="💬", layout="wide",
                    page_title="PragyanAI Groq Streamlit APP")
 # Display the logo at the top of the page
-st.image("PragyanAI_Transperent.png", width=150)  # Adjust width as needed
+st.image("PragyanAI_Transperent.png")  # Adjust width as needed
 
 def icon(emoji: str):
     """Shows an emoji as a Notion-style page icon."""
