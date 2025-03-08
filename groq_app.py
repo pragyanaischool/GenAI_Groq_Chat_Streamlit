@@ -18,6 +18,8 @@ icon("🏎️")
 
 st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
 
+#GROQ_API_KEY = "your_groq_api_key_here"
+GROQ_API_KEY = "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"
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
 )
