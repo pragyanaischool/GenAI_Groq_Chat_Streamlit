@@ -7,6 +7,7 @@ st.set_page_config(page_icon="💬", layout="wide",
 # Display the logo at the top of the page
 st.image("PragyanAI_Transperent.png")  # Adjust width as needed
 
+st.subheader( divider="rainbow", anchor=False)
 def icon(emoji: str):
     """Shows an emoji as a Notion-style page icon."""
     st.write(
