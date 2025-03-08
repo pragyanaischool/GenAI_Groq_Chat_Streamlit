@@ -15,7 +15,7 @@ def icon(emoji: str):
     )
 
 
-icon("🏎️")
+#icon("🏎️")
 
 st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
 
